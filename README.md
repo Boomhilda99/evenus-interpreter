@@ -12,36 +12,35 @@
 * ➕ Arithmetic expressions with operator precedence
 * 💬 String literals
 * 🔢 Number literals
-* ⌨️ User input with `ask()`
-* 📤 Output with `output()`
 * 🌳 Lexer → Parser → AST → Interpreter architecture
 
 ## Example
 Using this config
 ```json
 {
-"keywords": {
-    "print": "output",
-    "variable": "let",
-    "if_statement": "if",
-    "else_statement": "but",
-    "inf_loop": "loop",
-    "for_loop": "for",
-    "not": "opposite",
-    "function": "fn",
-    "input": "ask"
-},
-"syntax": {
-    "indent": true
-}
+    "keywords": {
+        "print": "output",
+        "variable": "let",
+        "if_statement": "if",
+        "else_statement": "but",
+        "inf_loop": "loop",
+        "for_loop": "for",
+        "not": "opposite",
+        "function": "fn",
+        "input": "ask"
+    },
+    "syntax": {
+        "indent": true
+    }
 }
 ```
 Creates this syntax
 ```evenus
-let name = ask("What is your name? ");
+let userPassword = ask("What is the admin password? ");
 let age = ask("What is your age? ");
 
-if name == "Boomhilda99" {
+let adminPass = "Yilti";
+if userPassword == adminPass {
     if age == "100" {
         output("Access Granted");
     } but {
