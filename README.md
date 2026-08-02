@@ -54,7 +54,8 @@ cd evenus
 Run the interpreter:
 
 ```bash
-evenus.exe "FILENAME TO MAIN.EVS" "FILENAME TO EVENUS.JSON"
+cargo run "FILENAME TO MAIN.EVS" "FILENAME TO EVENUS.JSON"
+evenus-interpreter.exe "FILENAME TO MAIN.EVS" "FILENAME TO EVENUS.JSON"
 ```
 
 ## Motivation

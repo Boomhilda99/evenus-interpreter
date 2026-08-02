@@ -50,7 +50,6 @@ fn run() -> Result<(), String> {
 
     let mut parser = Parser::new(tokens);
     let program = parser.parse()?;
-    println!("Parsed program: {:#?}", program);
     let mut interpreter = Interpreter::new();
     interpreter.run(&program)?;
 
