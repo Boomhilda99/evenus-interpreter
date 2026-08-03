@@ -6,13 +6,13 @@
 
 ## Features
 
-* 🔧 Configurable language keywords
-* ⚡ Written in Rust
-* 📝 Variables
-* ➕ Arithmetic expressions with operator precedence
-* 💬 String literals
-* 🔢 Number literals
-* 🌳 Lexer → Parser → AST → Interpreter architecture
+* Configurable language keywords
+* Written in Rust
+* Variables
+* Arithmetic expressions with operator precedence
+* String literals
+* Number literals
+* Lexer > Parser > AST > Interpreter architecture
 
 ## Example
 Using this config
